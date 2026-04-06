@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+}
+
+.transition-nav {
+  animation: fadeSlide 0.5s ease-in-out;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.shadow-white{
+  color: white;
+}
+
+.shadow-white:hover{
+  box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.5);
+  color: black;
+  background-color: white;
+}
+
+body{
+  background-color: rgb(239, 239, 239);
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;   /* 🔥 controls total width */
+  margin: 50px auto;  /* center the timeline */
+}
+
+/* Center vertical line */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* container */
+.cont {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;   
+}
+
+
+
+/* left divisiona */
+.left-cont {
+  left: 0;
+  text-align: left;
+}
+
+/* Right divisions */
+.right-cont {
+  left: 50%;
+}
+
+/* text box styling */
+.text-box {
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* placeholder color */
+.input-light::placeholder {
+  color: #ccc; 
+}
+
+.input-dark::placeholder {
+  color: #555; 
+}
+
+.box:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+} 
+
+.block {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.block.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
