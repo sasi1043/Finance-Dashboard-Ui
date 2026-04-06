@@ -35,7 +35,7 @@ function AdAnalytics() {
       </div>
         
       <div className='container-fluid pt-5'>
-        <h3 className='mt-5'>Track Your Wealth</h3>
+        <h3 className='mt-5'>Financial Insights</h3>
       <div className='row g-4 mt-1 me-1'>
         {/* for investments */}
         <div className='col-12 col-md-8'>
