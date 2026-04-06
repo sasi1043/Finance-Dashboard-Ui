@@ -96,7 +96,7 @@ function AdTransactions() {
       <div className='container-fluid container-md pt-5'>
 
         <div className='pt-5'>
-          <h2 className='mt-3 text-center text-md-start'>Transactions Details</h2>
+          <h2 className='mt-3 text-center text-md-start'>Manage Transactions </h2>
         </div>
 
         {/* cards */}
